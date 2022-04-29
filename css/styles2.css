@@ -1,5 +1,5 @@
 .banner {
-    background: rgba(0,0,0,0.7) url(/dist/images/NG-en-20220418-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background: rgba(0,0,0,0.7) url(https://assets.nflxext.com/ffe/siteui/vlv3/3e521d6d-a53b-4c3f-a85f-dd77c06f7ac7/d80737cc-a0b5-40a1-a50d-5ae7bac8fab3/NG-en-20220425-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     background-blend-mode: darken;
     background-size: cover;
     height: 100vh;
@@ -81,6 +81,9 @@
       .start-btn {
           flex-direction: column;
       }
+      .start-btn button {
+          -webkit-box-align: center;
+      }
   }
 
   .grid-template {
@@ -101,7 +104,6 @@
     color: rgb(117, 117, 117);
     margin-bottom: 20px !important;
     font-size: 14px;
-    text-decoration: none;
   }
   
 
