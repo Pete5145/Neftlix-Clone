@@ -27,3 +27,100 @@
     }
 
 }
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  button.accordion {
+    width: 100%;
+    background-color: #303030;
+    border: none;
+    outline: none;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s linear;
+  }
+  
+  button.accordion:after {
+    font-family: FontAwesome;
+    content: "\f150";
+    font-family: "fontawesome";
+    font-size: 18px;
+    float: right;
+  }
+  
+  button.accordion.is-open:after {
+    content: "\f151";
+  }
+  
+  /* button.accordion:hover,
+  button.accordion.is-open {
+    background-color: #ddd;
+  }
+   */
+  .accordion-content {
+    background-color: #303030;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 1.5rem;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+  @media screen and (max-width:949px) {
+      .start-btn {
+          flex-direction: column;
+      }
+  }
+
+  .grid-template {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 80px;
+  }
+
+  footer h6{
+    color: rgb(117, 117, 117) !important;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .grid-template p{
+    color: rgb(117, 117, 117);
+    margin-bottom: 20px !important;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+
+  @media screen and (max-width: 569px) {
+      .grid-template {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 29px;
+            grid-row-gap: 11px;
+      }
+  }
+
+  @media screen and (max-width: 451px) {
+      .grid-template {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 27px;
+        grid-row-gap: 11px;
+      }
+  }
