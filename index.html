@@ -6,27 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <section class="banner  p-9">
+<body style="overflow-x: hidden;">
+    <section class="banner border-b-8 border-zinc-800 mb-0 p-7">
         <nav class="flex justify-between">
-            <h1 class="text-4xl text-red-600 font-bold">NETFLIX</h1>
-            <button class="text-white bg-red-600 font-medium h-9 px-4 rounded">Sign In</button>
+            <h1 class=" text-3xl sm:text-4xl text-red-600 font-bold">NETFLIX</h1>
+            <button class="text-white bg-red-600 sm:font-medium h-5 sm:h-9 px-4 rounded">Sign In</button>
         </nav>
-        <div class=" flex flex-col justify-center items-center h-full">
-            <h1 class="text-white text-4xl text-center font-bold whitespace-pre-line">Unlimited movies, TV 
+        <div class=" w-full flex flex-col justify-center items-center h-full">
+            <h1 class="text-white text-4xl sm:text-5xl text-center font-bold sm:font-bold whitespace-pre-line">Unlimited movies, TV 
                 shows, and more.</h1>
-            <p class="text-white mt-5 text-2xl">Watch anywhere. Cancel anytime.</p>
+            <p class="text-white mt-5 text-center text-2xl">Watch anywhere. Cancel anytime.</p>
             <div class="text-white mt-6">
-                <p class="text-xl">Ready to watch? Enter your email to create or restart your membership.</p>
+                <p class="text-xl text-center">Ready to watch? Enter your email to create or restart your membership.</p>
+
                 <div class="mt-5 flex">
-                <input type="email" class="w-3/4 h-16 pl-2 text-black" placeholder="Email address">
-                <button style="background-color:rgb(232, 13, 13)" class="h-16 w-56 rounded-sm text-2xl font-normal">Get Started<i class="fa-solid fa-chevron-right text-lg pl-2"></i></button>
+                <input type="email" class=" rounded pl-2 text-black" placeholder="Email address">
+                <button style="background-color:rgb(232, 13, 13)" class="rounded-sm sm:text-2xl font-normal mt-3 mx-32">Get Started<i class="fa-solid fa-chevron-right sm:text-lg pl-2"></i></button>
                 </div>
+                
                 <!-- <p class="msg text-amber-500 ">please enter valid email address</p> -->
             </div>
         </div>
     </section>
+    
+    <div class=" banner-1 bg-black p-10 sm:p-24 border-b-8 border-zinc-800 sm:flex sm:justify-between items-center">
+        <div class="text-white text-center mb-3 sm:text-justify">
+            <h1 class="banner-text font-bold text-3xl sm:text-5xl">Enjoy on your TV.</h1>
+            <h2 class="banner-text-small pt-5 font-normal text-xl sm:text-3xl" style="max-width: 530px;">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
+        </div>
+        <div>
+            <img src="https://beat-netflix-clone.vercel.app/images/misc/home-tv.jpg"   alt="Tiger King on Netflix">
+        </div>
+    </div>
+
+    <div class="banner-2 bg-black border-b-8 border-zinc-800  sm:flex sm:flex-row  sm:justify-center items-center"
+    style="padding-bottom: 60px;">
+        <div>
+            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"  alt="">
+        </div>
+        <div class="text-center sm:text-justify" style="padding-top: 5rem; max-width: 550px;">
+            <h1 class="banner-text font-bold text-3xl sm:text-5xl text-white">Download your shows to watch offline.</h1>
+            <h2 class="banner-text-small mt-5 font-normal text-xl sm:text-3xl text-white">Save your favorites easily and always have something to watch.</h2>
+        </div>
+    </div>
+
+    <div class="bg-black border-b-8 border-zinc-800"> 
+        <div class="text-white sm:text-justify text-center " style="padding: 60px 40px; max-width:600px; ">
+            <h1 class="banner-text font-bold text-3xl sm:text-5xl">Watch everywhere.</h1>
+            <h2 class="banner-text-small mt-5 font-normal text-xl sm:text-3xl" >Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
+        </div>
+    </div>
+
+    <div class="banner-3 bg-black border-b-8 border-zinc-800 sm:flex sm:flex-row sm:justify-center items-center"
+    style="padding-top: 60px;">
+        <div>
+            <img src="https://occ-0-4616-2705.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABdFTpLmANuJpYneLq8L5m7CunMCi8e8Nl4y7xaPVWzG3IeoDoq17egTQAthApKg_4sdRWdwuR8KadWu1frjL3JQImpwq.png?r=fcd" alt="">
+        </div>
+        <div class="text-center sm:text-justify" style=" max-width: 550px;">
+            <h1 class="banner-text font-bold text-3xl sm:text-5xl text-white">Create profile for kids.</h1>
+            <h2 class="banner-text-small mt-5 font-normal text-xl sm:text-3xl text-white">Send kids on an adventure with their favorite characters in a space made just for them — free with your membership.</h2>
+        </div>
+    </div>
+
+ 
+    <div class="bg-black text-white flex flex-col items-center justify-center pt-5">
+        <h1 class="sm:text-5xl font-bold">Frequently asked questions</h1>
+        <button class="accordion">Website Analytics and Performance</button>
+        <div class="accordion-content">
+          <p>
+            We believe that in order to have a successful website, you need to constantly adjust and adapt to the data provided by your website visitors. Here at Pierre Web Development, we have narrowed down the specific key performance indicators that will dramatically boost your success with connecting to target markets. We will provide a basic metric dashboard based on how much traffic your site gets, detailed analytical reports that show which parts of your website is the most popular among visitors as well as access to tools you can use to make meaningful decisions based on this data.
+          </p>
+        </div>
+      
+        <button class="accordion">Digital Marketing</button>
+        <div class="accordion-content">
+          <p>
+            We know that every great website focuses on helping you get more business and building a brand that your ideal customers will love and support. We can help you set up a great, SEO-focused content strategy, a paid ads campaign, email marketing integration with Mailchimp as well as a social media marketing campaign. We also use popular website analytic tools to track your site's performance and provide you with weekly analytic reports to help bolster your growth.
+          </p>
+        </div>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+

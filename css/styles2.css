@@ -1,0 +1,29 @@
+.banner {
+    background: rgba(0,0,0,0.7) url(/dist/images/NG-en-20220418-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+@media  screen and (min-width:550px) and (max-width: 949px) {
+    .banner-1 {
+        flex-direction: column;
+    }   
+    .banner-text {
+        text-align: center !important;
+    }
+    .banner-text-small {
+        text-align: center !important;
+        font-size: 20px !important;
+        max-width: 100%!important;
+    }
+    .banner-2 {
+        flex-direction: column-reverse !important;
+    }
+    .banner-3 {
+        flex-direction: column-reverse !important;
+    }
+
+}
