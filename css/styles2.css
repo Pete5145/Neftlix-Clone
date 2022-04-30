@@ -16,7 +16,7 @@
     }
     .banner-text-small {
         text-align: center !important;
-        font-size: 20px !important;
+        font-size: 18px !important;
         max-width: 100%!important;
     }
     .banner-2 {
@@ -39,12 +39,36 @@
 @media screen and (max-width: 455px){
     button.accordion {
         font-size: 1.2rem !important ;
+        font-weight: 500;
     }
     .accordion-content {
-        font-size: 1.2rem !important ;
+        font-size: 1rem !important ;
     }
     .container {
         width: 100% !important;
+    }
+    .banner-text {
+        text-align: center !important;
+        font-size: 1.8rem !important;
+    }
+    .banner-text-small {
+        text-align: center !important;
+        font-size: 18px !important;
+        max-width: 100%!important;
+    }
+    .banner {
+        height: 130vh;
+    }
+    .navbar-brand {
+        width: 100px;
+    }
+    .navbar-heading {
+        letter-spacing: -.8px;
+        font-weight: 400;
+        font-size: 1.8rem !important;
+    }
+    .navbar-p {
+        font-size: 1.2rem !important;
     }
 }
 
@@ -90,7 +114,7 @@
     background-color: #303030;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0 20px;
     margin-bottom: 5px;
     max-height: 0;
@@ -156,9 +180,10 @@
 .email__input {
     border: none;
     background: transparent;
-    width: 100%;
+    color: black;
     height: 100%;
     padding-left: 7px;
+    width: 100%;
   }
   
   .email__form__container {
@@ -252,8 +277,8 @@ footer {
     color: white;
     padding: 0rem 1.2rem;
     border-radius: 2px;
-    font-size: 14px;
-    font-size: 23px;
+    /* font-size: 14px; */
+    font-size: 19px;
     letter-spacing: 2px;
   }
   
